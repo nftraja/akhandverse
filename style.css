@@ -104,23 +104,17 @@ html,body{
 }
 
 
-.quick-grid{
+/* ================= GRID ================= */
+.grid{
   display:grid;
-  grid-template-columns:repeat(2,1fr); /* Mobile default */
-  gap:12px;
-  padding:12px;
+  grid-template-columns:repeat(2,1fr); /* mobile default */
+  gap:8px;
+  padding:0;
 }
 
-/* Tablet (optional) */
-@media (min-width:768px){
-  .quick-grid{
-    grid-template-columns:repeat(2,1fr);
-  }
-}
-
-/* Desktop */
-@media (min-width:1024px){
-  .quick-grid{
+/* ===== DESKTOP FIX (3 COLUMNS) ===== */
+@media(min-width:768px){
+  .grid{
     grid-template-columns:repeat(3,1fr);
   }
 }
