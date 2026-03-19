@@ -1,0 +1,358 @@
+/* =====================================
+   AKHANDVERSE – FINAL CORE.CSS (LOCKED)
+   Sanatan Green Glass + 3D Gradient UI
+===================================== */
+
+
+/* ================= ROOT VARIABLES ================= */
+:root{
+  --bg-main:radial-gradient(circle at top,#07140f,#020504);
+
+  --accent:#00ff9c;
+
+  --text-primary:#eafff6;
+  --text-secondary:#b7f7d5;
+
+  --radius-lg:16px;
+  --radius-md:12px;
+  --radius-sm:8px;
+}
+
+
+/* ================= RESET ================= */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+}
+
+
+/* ================= GLOBAL ================= */
+html,body{
+  touch-action:manipulation;
+  background:var(--bg-main);
+  color:var(--text-primary);
+
+  /* 🔥 FIX: NO SIDE LINE */
+  overflow-x:hidden;
+}
+
+
+/* ================= HEADER ================= */
+.app-header{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  height:54px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 14px;
+
+  backdrop-filter:blur(14px);
+  background:rgba(0,255,150,0.05);
+
+  border-bottom:1px solid rgba(0,255,150,0.15);
+  z-index:1000;
+}
+
+.menu-btn{
+  background:none;
+  border:none;
+  color:var(--accent);
+  font-size:22px;
+  cursor:pointer;
+}
+
+
+/* ================= MAIN ================= */
+.main-content{
+  padding:65px 8px 60px;
+}
+
+
+/* ================= TYPOGRAPHY ================= */
+.card-title{
+  font-size:14px;
+  font-weight:600;
+  margin-bottom:6px;
+  color:#9fffdc;
+}
+
+.card-desc,
+.list-desc{
+  font-size:13.5px;
+  color:#caffea;
+  line-height:1.5;
+}
+
+
+/* ================= GLASS CARD ================= */
+.glass-card{
+  padding:18px;
+  border-radius:var(--radius-lg);
+
+  background:rgba(0,255,150,0.05);
+  backdrop-filter:blur(16px);
+
+  border:1px solid rgba(0,255,150,0.18);
+
+  box-shadow:
+    0 8px 24px rgba(0,0,0,.7),
+    0 0 20px rgba(0,255,150,.08),
+    inset 0 1px 0 rgba(255,255,255,.05);
+}
+
+
+/* ================= GRID ================= */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:8px;
+
+  /* 🔥 FIX */
+  padding:0;
+}
+
+
+/* ================= CATEGORY ================= */
+.category-box{
+  position:relative;
+  display:block;
+  border-radius:var(--radius-md);
+  padding:13px;
+  text-align:center;
+  text-decoration:none;
+
+  color:#ffffff !important;
+  text-shadow:0 1px 2px rgba(0,0,0,0.6);
+
+  border:1px solid rgba(255,255,255,.15);
+  overflow:hidden;
+
+  box-shadow:
+    0 6px 18px rgba(0,0,0,.7),
+    inset 0 1px 0 rgba(255,255,255,.2),
+    inset 0 -4px 6px rgba(0,0,0,.6);
+
+  transition:.2s ease;
+  font-weight:500;
+  z-index:0;
+}
+
+
+/* ===== OVERLAY ===== */
+.category-box::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,.25);
+  z-index:1;
+  pointer-events:none;
+}
+
+
+/* ===== CONTENT FIX ===== */
+.category-box span,
+.category-box *{
+  position:relative;
+  z-index:2;
+  color:#ffffff !important;
+}
+
+
+/* ===== ICON ===== */
+.category-box span{
+  display:block;
+  font-size:17px;
+  margin-bottom:5px;
+}
+
+
+/* ===== HOVER ===== */
+.category-box:hover{
+  transform:translateY(-3px);
+}
+
+
+/* ================= CATEGORY GRADIENTS ================= */
+.category-box:nth-child(10n+1){background:linear-gradient(135deg,#00ff9c,#00c97a);}
+.category-box:nth-child(10n+2){background:linear-gradient(135deg,#00c6ff,#0072ff);}
+.category-box:nth-child(10n+3){background:linear-gradient(135deg,#ff7a18,#ff3d3d);}
+.category-box:nth-child(10n+4){background:linear-gradient(135deg,#7f00ff,#e100ff);}
+.category-box:nth-child(10n+5){background:linear-gradient(135deg,#00b09b,#96c93d);}
+.category-box:nth-child(10n+6){background:linear-gradient(135deg,#ff8a00,#e52e71);}
+.category-box:nth-child(10n+7){background:linear-gradient(135deg,#36d1dc,#5b86e5);}
+.category-box:nth-child(10n+8){background:linear-gradient(135deg,#00ffcc,#0099ff);}
+.category-box:nth-child(10n+9){background:linear-gradient(135deg,#f7971e,#ffd200);}
+.category-box:nth-child(10n+10){background:linear-gradient(135deg,#ff512f,#dd2476);}
+
+
+/* ================= LIST CARD ================= */
+.list-card{
+  border-radius:var(--radius-md);
+  padding:15px;
+
+  margin:8px 0; /* 🔥 FIX */
+
+  background:rgba(0,255,150,.04);
+  border:1px solid rgba(0,255,150,.18);
+
+  box-shadow:
+    0 6px 18px rgba(0,0,0,.7);
+}
+
+.list-title{
+  font-size:15px;
+  font-weight:700;
+  color:#00ff9c;
+  margin-bottom:6px;
+}
+
+
+/* ================= BUTTON ================= */
+.btn{
+  display:inline-block;
+  padding:8px 12px;
+  border-radius:999px;
+
+  background:linear-gradient(
+    135deg,
+    #00ff9c,
+    #00c6ff,
+    #7f00ff,
+    #ff7a18
+  );
+
+  color:#000;
+  font-size:12px;
+  font-weight:700;
+  text-decoration:none;
+  margin-top:10px;
+
+  box-shadow:
+    0 4px 14px rgba(0,255,150,.4),
+    0 0 10px rgba(0,255,150,.2);
+}
+
+
+/* ================= DRAWER ================= */
+.drawer{
+  position:fixed;
+  top:0;
+  left:-240px;
+  width:80%;
+  max-width:240px;
+  height:100vh;
+
+  background:rgba(0,10,8,.96);
+  backdrop-filter:blur(18px);
+
+  padding-top:10px;
+  transition:left .3s ease;
+  z-index:2000;
+
+  overflow-y:auto;
+  overflow-x:hidden;
+
+  -webkit-overflow-scrolling:touch;
+  touch-action:pan-y;
+
+  border-right:1px solid rgba(0,255,150,.2);
+}
+
+.drawer.active{
+  left:0;
+}
+
+.drawer a{
+  display:block;
+  padding:11px 14px;
+  font-size:13px;
+  color:#00ff9c;
+  text-decoration:none;
+  border-bottom:1px solid rgba(255,255,255,.05);
+}
+
+.drawer a:hover{
+  background:rgba(0,255,150,.1);
+}
+
+
+/* ================= OVERLAY ================= */
+.drawer-overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.7);
+  display:none;
+  z-index:1500;
+}
+
+.drawer-overlay.active{
+  display:block;
+}
+
+
+/* ================= SCROLL LOCK ================= */
+body.drawer-open{
+  overflow:hidden;
+  height:100vh;
+}
+
+
+/* ================= BOTTOM NAV ================= */
+.bottom-nav{
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  height:60px;
+
+  backdrop-filter:blur(14px);
+  background:rgba(0,10,8,.9);
+
+  border-top:1px solid rgba(0,255,150,.2);
+
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  z-index:999;
+}
+
+.bottom-item{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-decoration:none;
+  color:#9fffdc;
+  font-size:12px;
+}
+
+.bottom-item span{
+  font-size:18px;
+  margin-bottom:4px;
+}
+
+.bottom-item.active{
+  color:#00ff9c;
+}
+
+
+/* ================= GAP FIX ================= */
+#platformContainer .list-card:first-child{
+  margin-top:0;
+}
+
+
+/* ================= SAFE AREA ================= */
+body{
+  padding-bottom:20px;
+}
+
+@supports(padding:max(0px)){
+  body{
+    padding-bottom:max(20px, env(safe-area-inset-bottom));
+  }
+}
