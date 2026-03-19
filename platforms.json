@@ -1679,3 +1679,424 @@
 "description":"Interactive platform offering stories, lessons and activities for children.",
 "url":"https://kidsdharmalearning.com"
 },
+{
+"id":241,
+"name":"Temple Stay India",
+"category":"temples",
+"description":"Platform offering temple stays, dharamshalas and spiritual accommodation near pilgrimage sites.",
+"url":"https://templestayindia.com"
+},
+{
+"id":242,
+"name":"Pilgrimage Booking Hub",
+"category":"temples",
+"description":"Online platform for booking yatras, temple tours and spiritual travel packages.",
+"url":"https://pilgrimagebookinghub.com"
+},
+{
+"id":243,
+"name":"Bhakti Music App",
+"category":"bhajan",
+"description":"Mobile-friendly platform offering devotional music, bhajans and playlists.",
+"url":"https://bhaktimusicapp.com"
+},
+{
+"id":244,
+"name":"Devotional Radio Live",
+"category":"bhajan",
+"description":"Live radio streaming bhajans, kirtans and spiritual audio content.",
+"url":"https://devotionalradiolive.com"
+},
+{
+"id":245,
+"name":"Sanatan Scriptures Hub",
+"category":"scriptures",
+"description":"Platform providing access to Hindu scriptures, translations and commentary.",
+"url":"https://sanatanscriptureshub.com"
+},
+{
+"id":246,
+"name":"Gita Wisdom Platform",
+"category":"scriptures",
+"description":"Platform dedicated to Bhagavad Gita teachings, lessons and interpretations.",
+"url":"https://gitawisdomplatform.com"
+},
+{
+"id":247,
+"name":"Online Gurukul System",
+"category":"learning",
+"description":"Digital gurukul system offering courses on Vedic knowledge and dharma.",
+"url":"https://onlinegurukulsystem.com"
+},
+{
+"id":248,
+"name":"Dharma Learning Network",
+"category":"learning",
+"description":"Platform offering structured learning paths for Sanatan Dharma studies.",
+"url":"https://dharmalearningnetwork.com"
+},
+{
+"id":249,
+"name":"Yoga Meditation Hub",
+"category":"yoga",
+"description":"Platform combining yoga, meditation and mindfulness for holistic wellness.",
+"url":"https://yogameditationhub.com"
+},
+{
+"id":250,
+"name":"Spiritual Yoga Studio",
+"category":"yoga",
+"description":"Online yoga studio offering guided sessions and spiritual practices.",
+"url":"https://spiritualyogastudio.com"
+},
+{
+"id":251,
+"name":"Guru Talks Network",
+"category":"gurus",
+"description":"Platform streaming talks and teachings from spiritual gurus worldwide.",
+"url":"https://gurutalksnetwork.com"
+},
+{
+"id":252,
+"name":"Saints Wisdom Archive",
+"category":"gurus",
+"description":"Archive of teachings, quotes and knowledge from saints and spiritual leaders.",
+"url":"https://saintswisdomarchive.com"
+},
+{
+"id":253,
+"name":"Vedanta Knowledge Hub",
+"category":"philosophy",
+"description":"Platform offering Vedanta knowledge, philosophy and spiritual insights.",
+"url":"https://vedantaknowledgehub.com"
+},
+{
+"id":254,
+"name":"Sanatan Philosophy Network",
+"category":"philosophy",
+"description":"Platform exploring Sanatan philosophy, ethics and cultural thought systems.",
+"url":"https://sanatanphilosophynetwork.com"
+},
+{
+"id":255,
+"name":"Festival Planning Guide",
+"category":"festivals",
+"description":"Platform helping users plan festival rituals, celebrations and preparations.",
+"url":"https://festivalplanningguide.com"
+},
+{
+"id":256,
+"name":"Hindu Rituals Hub",
+"category":"festivals",
+"description":"Website explaining rituals, puja methods and festival practices.",
+"url":"https://hinduritualshub.com"
+},
+{
+"id":257,
+"name":"Spiritual Marketplace",
+"category":"shopping",
+"description":"Marketplace offering idols, books, puja kits and religious accessories.",
+"url":"https://spiritualmarketplace.com"
+},
+{
+"id":258,
+"name":"Dharma Store Online",
+"category":"shopping",
+"description":"Online platform for buying spiritual items, books and temple essentials.",
+"url":"https://dharmastoreonline.com"
+},
+{
+"id":259,
+"name":"Bhakti Streaming Platform",
+"category":"media",
+"description":"Streaming platform offering devotional shows, bhajans and spiritual programs.",
+"url":"https://bhaktistreamingplatform.com"
+},
+{
+"id":260,
+"name":"Sanatan Content Hub",
+"category":"media",
+"description":"Platform aggregating spiritual content, videos and teachings.",
+"url":"https://sanatancontenthub.com"
+},
+{
+"id":261,
+"name":"Kids Vedic Learning",
+"category":"kids",
+"description":"Educational platform for children to learn Vedic knowledge and stories.",
+"url":"https://kidsvediclearning.com"
+},
+{
+"id":262,
+"name":"Mythology Kids World",
+"category":"kids",
+"description":"Platform offering mythology-based learning, games and activities for kids.",
+"url":"https://mythologykidsworld.com"
+},
+{
+"id":263,
+"name":"Dharma Community Network",
+"category":"community",
+"description":"Community network connecting spiritual seekers and dharma practitioners.",
+"url":"https://dharmacommunitynetwork.com"
+},
+{
+"id":264,
+"name":"Sanatan Global Forum",
+"category":"community",
+"description":"Global platform for discussions, events and dharma knowledge sharing.",
+"url":"https://sanatanglobalforum.com"
+},
+{
+"id":265,
+"name":"Astrology Insight Hub",
+"category":"astrology",
+"description":"Platform offering horoscope analysis, kundli tools and predictions.",
+"url":"https://astrologyinsighthub.com"
+},
+{
+"id":266,
+"name":"Vedic Astrology Tools",
+"category":"astrology",
+"description":"Website providing Vedic astrology tools, charts and calculations.",
+"url":"https://vedicastrologytools.com"
+},
+{
+"id":267,
+"name":"Ayurveda Health Guide",
+"category":"ayurveda",
+"description":"Platform offering Ayurvedic health tips, diet plans and remedies.",
+"url":"https://ayurvedahealthguide.com"
+},
+{
+"id":268,
+"name":"Holistic Ayurveda Care",
+"category":"ayurveda",
+"description":"Website focused on holistic healing using Ayurveda and natural methods.",
+"url":"https://holisticayurvedacare.com"
+},
+{
+"id":269,
+"name":"Spiritual Films Hub",
+"category":"media",
+"description":"Platform streaming films and documentaries on spirituality and culture.",
+"url":"https://spiritualfilmshub.com"
+},
+{
+"id":270,
+"name":"Kids Bhakti Learning",
+"category":"kids",
+"description":"Platform offering devotional learning, stories and music for children.",
+"url":"https://kidsbhaktilearning.com"
+},
+{
+"id":271,
+"name":"Temple Explorer India",
+"category":"temples",
+"description":"Platform helping users discover temples, routes and detailed pilgrimage information.",
+"url":"https://templeexplorerindia.com"
+},
+{
+"id":272,
+"name":"Spiritual Travel Guide",
+"category":"temples",
+"description":"Comprehensive travel platform for spiritual journeys, yatras and temple visits.",
+"url":"https://spiritualtravelguide.com"
+},
+{
+"id":273,
+"name":"Bhakti Audio Library",
+"category":"bhajan",
+"description":"Extensive audio library of bhajans, kirtans and devotional chants.",
+"url":"https://bhaktiaudiolibrary.com"
+},
+{
+"id":274,
+"name":"Kirtan Streaming Hub",
+"category":"bhajan",
+"description":"Platform streaming kirtans, mantra chanting and devotional music sessions.",
+"url":"https://kirtanstreaminghub.com"
+},
+{
+"id":275,
+"name":"Sacred Text Knowledge Base",
+"category":"scriptures",
+"description":"Knowledge base offering Hindu scriptures, translations and interpretations.",
+"url":"https://sacredtextknowledgebase.com"
+},
+{
+"id":276,
+"name":"Vedic Wisdom Portal",
+"category":"scriptures",
+"description":"Platform dedicated to Vedic teachings, knowledge and spiritual texts.",
+"url":"https://vedicwisdomportal.com"
+},
+{
+"id":277,
+"name":"Sanatan Learning Platform",
+"category":"learning",
+"description":"Structured platform offering courses on dharma, philosophy and traditions.",
+"url":"https://sanatanlearningplatform.com"
+},
+{
+"id":278,
+"name":"Vedic Education Network",
+"category":"learning",
+"description":"Network providing education on Vedic knowledge, Sanskrit and Indian culture.",
+"url":"https://vediceducationnetwork.com"
+},
+{
+"id":279,
+"name":"Yoga Spiritual Flow",
+"category":"yoga",
+"description":"Platform combining yoga practices with spiritual growth techniques.",
+"url":"https://yogaspiritualflow.com"
+},
+{
+"id":280,
+"name":"Meditation Wellness Center",
+"category":"yoga",
+"description":"Online center for meditation, breathing techniques and mental wellness.",
+"url":"https://meditationwellnesscenter.com"
+},
+{
+"id":281,
+"name":"Guru Knowledge Network",
+"category":"gurus",
+"description":"Platform sharing teachings, lectures and insights from spiritual gurus.",
+"url":"https://guruknowledgenetwork.com"
+},
+{
+"id":282,
+"name":"Saints Teachings Hub",
+"category":"gurus",
+"description":"Digital hub for accessing teachings and philosophies of saints.",
+"url":"https://saintsteachingshub.com"
+},
+{
+"id":283,
+"name":"Vedanta Philosophy Portal",
+"category":"philosophy",
+"description":"Portal offering Vedanta philosophy, teachings and spiritual discussions.",
+"url":"https://vedantaphilosophyportal.com"
+},
+{
+"id":284,
+"name":"Sanatan Thought Network",
+"category":"philosophy",
+"description":"Platform exploring thoughts, ethics and philosophies of Sanatan Dharma.",
+"url":"https://sanatanthoughtnetwork.com"
+},
+{
+"id":285,
+"name":"Festival Ritual Planner",
+"category":"festivals",
+"description":"Platform helping users plan and perform festival rituals and ceremonies.",
+"url":"https://festivalritualplanner.com"
+},
+{
+"id":286,
+"name":"Hindu Festival Network",
+"category":"festivals",
+"description":"Network offering detailed festival guides, traditions and celebrations.",
+"url":"https://hindufestivalnetwork.com"
+},
+{
+"id":287,
+"name":"Divine Products Store",
+"category":"shopping",
+"description":"Online store offering idols, puja kits and spiritual accessories.",
+"url":"https://divineproductsstore.com"
+},
+{
+"id":288,
+"name":"Spiritual Goods Marketplace",
+"category":"shopping",
+"description":"Marketplace for buying spiritual products, books and temple essentials.",
+"url":"https://spiritualgoodsmarketplace.com"
+},
+{
+"id":289,
+"name":"Sanatan Streaming Hub",
+"category":"media",
+"description":"Streaming platform offering spiritual shows, bhajans and teachings.",
+"url":"https://sanatanstreaminghub.com"
+},
+{
+"id":290,
+"name":"Dharma Video Platform",
+"category":"media",
+"description":"Platform hosting spiritual videos, documentaries and discourses.",
+"url":"https://dharmavideoplatform.com"
+},
+{
+"id":291,
+"name":"Kids Dharma Stories Hub",
+"category":"kids",
+"description":"Platform offering stories, learning and activities for children.",
+"url":"https://kidsdharmastorieshub.com"
+},
+{
+"id":292,
+"name":"Little Sanatan Learning",
+"category":"kids",
+"description":"Interactive platform for kids to learn culture, values and traditions.",
+"url":"https://littlesanatanlearning.com"
+},
+{
+"id":293,
+"name":"Sanatan Community World",
+"category":"community",
+"description":"Global community for sharing dharma knowledge and connecting seekers.",
+"url":"https://sanatancommunityworld.com"
+},
+{
+"id":294,
+"name":"Dharma Global Network",
+"category":"community",
+"description":"Platform connecting spiritual communities and hosting discussions.",
+"url":"https://dharmaglobalnetwork.com"
+},
+{
+"id":295,
+"name":"Astrology Prediction Hub",
+"category":"astrology",
+"description":"Platform offering horoscope predictions, kundli analysis and astrology tools.",
+"url":"https://astrologypredictionhub.com"
+},
+{
+"id":296,
+"name":"Vedic Astrology World",
+"category":"astrology",
+"description":"Website providing Vedic astrology knowledge, charts and insights.",
+"url":"https://vedicastrologyworld.com"
+},
+{
+"id":297,
+"name":"Ayurveda Lifestyle Hub",
+"category":"ayurveda",
+"description":"Platform offering Ayurvedic lifestyle guidance and natural remedies.",
+"url":"https://ayurvedalifestylehub.com"
+},
+{
+"id":298,
+"name":"Natural Ayurveda Solutions",
+"category":"ayurveda",
+"description":"Website focused on Ayurvedic healing and herbal treatments.",
+"url":"https://naturalayurvedasolutions.com"
+},
+{
+"id":299,
+"name":"Spiritual Cinema Hub",
+"category":"media",
+"description":"Platform streaming spiritual films, documentaries and cultural content.",
+"url":"https://spiritualcinemahub.com"
+},
+{
+"id":300,
+"name":"Kids Bhakti Universe",
+"category":"kids",
+"description":"Platform offering devotional content, stories and music for children.",
+"url":"https://kidsbhaktiuniverse.com"
+}
+]
