@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Akhandverse Directory</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="app-header">
+  <button class="menu-btn" onclick="toggleDrawer()">☰</button>
+  <div id="pageTitle">Category</div>
+</div>
+
+<!-- DRAWER -->
+<div class="drawer" id="drawer">
+
+  <a href="#" class="drawer-back" onclick="closeDrawer()">← Back</a>
+
+  <a href="index.html">🏠 Home</a>
+  <a href="category.html?type=temples">🛕 Temples</a>
+  <a href="category.html?type=bhajan">📿 Bhajan</a>
+  <a href="category.html?type=scriptures">📖 Scriptures</a>
+  <a href="category.html?type=learning">🎓 Learning</a>
+  <a href="category.html?type=yoga">🧘 Yoga</a>
+  <a href="category.html?type=gurus">🕉️ Gurus</a>
+  <a href="category.html?type=philosophy">🧠 Philosophy</a>
+  <a href="category.html?type=festivals">📅 Festivals</a>
+  <a href="category.html?type=shopping">🛍️ Shopping</a>
+  <a href="category.html?type=media">🎥 Media</a>
+  <a href="category.html?type=kids">👶 Kids</a>
+  <a href="category.html?type=community">🌍 Community</a>
+  <a href="category.html?type=astrology">🔮 Astrology</a>
+  <a href="category.html?type=ayurveda">🌿 Ayurveda</a>
+
+</div>
+
+<div class="drawer-overlay" id="overlay" onclick="closeDrawer()"></div>
+
+<!-- MAIN -->
+<div class="main-content">
+
+  <!-- CATEGORY INTRO -->
+  <div class="glass-card">
+    <div class="card-title" id="categoryTitle">Loading...</div>
+    <div class="card-desc">
+      Explore curated platforms across temples, scriptures, yoga, bhajans, spiritual learning and Sanatan knowledge systems connecting users to trusted digital resources worldwide.
+    </div>
+  </div>
+
+  <!-- PLATFORM LIST -->
+  <div id="platformContainer"></div>
+
+</div>
+
+<!-- BOTTOM NAV -->
+<div class="bottom-nav">
+
+  <a href="index.html" class="bottom-item">
+    <span>🏠</span>
+    Home
+  </a>
+
+  <a href="https://qbank.nftraja.com/" target="_blank" class="bottom-item">
+    <span>📘</span>
+    QBank
+  </a>
+
+  <a href="https://tool.nftraja.com/" target="_blank" class="bottom-item">
+    <span>🛠</span>
+    Tools
+  </a>
+
+  <a href="https://www.nftraja.com/" target="_blank" class="bottom-item">
+    <span>🌐</span>
+    NFTRaja
+  </a>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
