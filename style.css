@@ -177,17 +177,17 @@ html,body{
 }
 
 
-/* ================= CATEGORY GRADIENTS ================= */
-.category-box:nth-child(10n+1){background:linear-gradient(135deg,#00ff9c,#00c97a);}
-.category-box:nth-child(10n+2){background:linear-gradient(135deg,#00c6ff,#0072ff);}
-.category-box:nth-child(10n+3){background:linear-gradient(135deg,#ff7a18,#ff3d3d);}
-.category-box:nth-child(10n+4){background:linear-gradient(135deg,#7f00ff,#e100ff);}
-.category-box:nth-child(10n+5){background:linear-gradient(135deg,#00b09b,#96c93d);}
-.category-box:nth-child(10n+6){background:linear-gradient(135deg,#ff8a00,#e52e71);}
-.category-box:nth-child(10n+7){background:linear-gradient(135deg,#36d1dc,#5b86e5);}
-.category-box:nth-child(10n+8){background:linear-gradient(135deg,#00ffcc,#0099ff);}
-.category-box:nth-child(10n+9){background:linear-gradient(135deg,#f7971e,#ffd200);}
-.category-box:nth-child(10n+10){background:linear-gradient(135deg,#ff512f,#dd2476);}
+/* ===== CATEGORY GRADIENTS (GREEN + PINK MIX) ===== */
+.category-box:nth-child(10n+1){background:linear-gradient(135deg,#00ff88,#ff4ecd);}
+.category-box:nth-child(10n+2){background:linear-gradient(135deg,#00c97a,#ff6ec7);}
+.category-box:nth-child(10n+3){background:linear-gradient(135deg,#22c55e,#ff3cac);}
+.category-box:nth-child(10n+4){background:linear-gradient(135deg,#00ff9c,#ff1493);}
+.category-box:nth-child(10n+5){background:linear-gradient(135deg,#16a34a,#ff69b4);}
+.category-box:nth-child(10n+6){background:linear-gradient(135deg,#00e676,#ff4081);}
+.category-box:nth-child(10n+7){background:linear-gradient(135deg,#00ffcc,#ff2e63);}
+.category-box:nth-child(10n+8){background:linear-gradient(135deg,#34d399,#ff5e9c);}
+.category-box:nth-child(10n+9){background:linear-gradient(135deg,#4ade80,#ff1e8a);}
+.category-box:nth-child(10n+10){background:linear-gradient(135deg,#00ff88,#ff007f);}
 
 
 /* ================= LIST CARD ================= */
